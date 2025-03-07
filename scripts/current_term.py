@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 
-# Create a dataset useful for analytics, complete with townhall info
+# Modify the townhall.yaml file with the current term's congressional members
+# This script will remove any members that are no longer in Congress and add
+# stub records for incoming newly elected members.
 
 import requests, json
 
